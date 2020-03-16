@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+footer{
+  margin-top: 5%;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-color: black;
+}
+.nav-bar-header-lang{
+  font-size: 12px;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+.nav-bar-header-menu{
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.nav-bar{
+  width: 100%;
+  height: 275px;
+  background-color: black;
+  margin-bottom: 5%;
+}
+
+.index_title_news{
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.index_url_country{
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.new_img_line{
+  width: 100%;
+  height: 65%;
+  padding-top: 10px;
+}
+
+.new_title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.new_title_category{
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+.new_creator_and_date{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: -15px;
+}
+.new_description{
+  font-weight: 400;
+}
+.footer-copyright{
+  font-size: 15px;
+  color: white;
+}
+.created-by{
+  font-size: 13px;
+  color: white;
+}
