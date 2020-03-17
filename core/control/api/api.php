@@ -1,10 +1,12 @@
 <?php
-
+	error_reporting(0);
+	
 	$url = "http://newsapi.org/v2/top-headlines?country=".$country."&category=".$category."&apiKey=".$apikey."";
 
 	$data = file_get_contents($url);
 	$characters = json_decode($data, true);
 
+	$totalResults = $characters['totalResults'];
 	$author = [];
 	$title = [];
 	$description = [];
