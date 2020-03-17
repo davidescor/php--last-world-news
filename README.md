@@ -7,7 +7,7 @@ Available countries: CO, DE, FR, IT, MX, PT, RO, RU and US.
 
 ## Requirements
 
-- Register to newsapi.org.
+- Register to [newsapi.org](https://newsapi.org/).
 - Php 5.6+.
 
 
