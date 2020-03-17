@@ -60,14 +60,9 @@
 
     <footer>
       <br>
-        <a class="nav-bar-header-menu" href="index.php">home</a>
-        <a class="nav-bar-header-menu" href="news.php?category=business">business</a>
-        <a class="nav-bar-header-menu" href="news.php?category=entertainment">entertainment</a>
-        <a class="nav-bar-header-menu" href="news.php?category=general">general</a>
-        <a class="nav-bar-header-menu" href="news.php?category=health">health</a>
-        <a class="nav-bar-header-menu" href="news.php?category=science">science</a>
-        <a class="nav-bar-header-menu" href="news.php?category=sports">sports</a>
-        <a class="nav-bar-header-menu" href="news.php?category=technology">technology</a>
+        <?php
+          load_lang_categorys($lang);
+        ?>
       <hr>
       <p class="footer-copyright">COPYRIGHT 2020 @ LWN </p>
       <a target="_blank" href="http://www.davidespier.com" class="created-by" >Created and design by davidespier.com</a>
