@@ -25,19 +25,19 @@ Available countries: CO, DE, FR, IT, MX, PT, RO, RU and US.
   $country = 'us';
 ```
 
- 2.1 - Explanation:
- 
-       $category -> Categories displayed in 'index.php'.
- 
-                    Available 'business, entertaiment, general, health, science, sports, technology'.
-                    
-       $news ->     News displayed in 'index.php' | Max 19 notice | Array 0 to 19 = 20 | 1 line = 4 notices.
-       
-       $apikey ->   Add apikey /v2. https://newsapi.org/
-       
-       $lang ->     Language available: co, de, fr, it, mx, pt, ro, ru and us.
-       
-       $country ->  Country available: co, de, fr, it, mx, pt, ro, ru and us.
+       2.1 - Explanation:
+
+             $category -> Categories displayed in 'index.php'.
+
+                          Available 'business, entertaiment, general, health, science, sports, technology'.
+
+             $news ->     News displayed in 'index.php' | Max 19 notice | Array 0 to 19 = 20 | 1 line = 4 notices.
+
+             $apikey ->   Add apikey /v2. https://newsapi.org/
+
+             $lang ->     Language available: co, de, fr, it, mx, pt, ro, ru and us.
+
+             $country ->  Country available: co, de, fr, it, mx, pt, ro, ru and us.
                      
 
 3. Run.
