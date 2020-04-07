@@ -1,4 +1,4 @@
-![last-world-news](http://davidespier.com/pages/lastworldnews/core/design/img/last%20word%20news.PNG)
+![last-world-news](http://davidespier.com/pages/lastworldnews/core/design/img/lwn.jpg)
 
 # last-world-news
 
