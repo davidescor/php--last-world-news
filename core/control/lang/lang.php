@@ -65,15 +65,24 @@ function load_lang_categorys($lang){
                 <a class="nav-bar-header-menu" href="news.php?category=science&lang=us&country=us">science</a>
                 <a class="nav-bar-header-menu" href="news.php?category=sports&lang=us&country=us">sports</a>
                 <a class="nav-bar-header-menu" href="news.php?category=technology&lang=us&country=us">technology</a>';
-        }else if($lang == 'mx' || $lang == 'co'){
-                echo '<a class="nav-bar-header-menu" href="index.php?lang=us&country=us">principal</a>
-                <a class="nav-bar-header-menu" href="news.php?category=business&lang=us&country=us">Empresa</a>
-                <a class="nav-bar-header-menu" href="news.php?category=entertainment&lang=us&country=us">Entretenimiento</a>
-                <a class="nav-bar-header-menu" href="news.php?category=general&lang=us&country=us">general</a>
-                <a class="nav-bar-header-menu" href="news.php?category=health&lang=us&country=us">salud</a>
-                <a class="nav-bar-header-menu" href="news.php?category=science&lang=us&country=us">ciencia</a>
-                <a class="nav-bar-header-menu" href="news.php?category=sports&lang=us&country=us">deportes</a>
-                <a class="nav-bar-header-menu" href="news.php?category=technology&lang=us&country=us">tecnología</a>';
+        }else if($lang == 'mx'){
+                echo '<a class="nav-bar-header-menu" href="index.php?lang=mx&country=mx">principal</a>
+                <a class="nav-bar-header-menu" href="news.php?category=business&lang=mx&country=mx">Empresa</a>
+                <a class="nav-bar-header-menu" href="news.php?category=entertainment&lang=mx&country=mx">Entretenimiento</a>
+                <a class="nav-bar-header-menu" href="news.php?category=general&lang=mx&country=mx">general</a>
+                <a class="nav-bar-header-menu" href="news.php?category=health&lang=mx&country=mx">salud</a>
+                <a class="nav-bar-header-menu" href="news.php?category=science&lang=mx&country=mx">ciencia</a>
+                <a class="nav-bar-header-menu" href="news.php?category=sports&lang=mx&country=mx">deportes</a>
+                <a class="nav-bar-header-menu" href="news.php?category=technology&lang=mx&country=mx">tecnología</a>';
+        }else if($lang == 'co'){
+                echo '<a class="nav-bar-header-menu" href="index.php?lang=co&country=co">principal</a>
+                <a class="nav-bar-header-menu" href="news.php?category=business&lang=co&country=co">Empresa</a>
+                <a class="nav-bar-header-menu" href="news.php?category=entertainment&lang=co&country=co">Entretenimiento</a>
+                <a class="nav-bar-header-menu" href="news.php?category=general&lang=co&country=co">general</a>
+                <a class="nav-bar-header-menu" href="news.php?category=health&lang=co&country=co">salud</a>
+                <a class="nav-bar-header-menu" href="news.php?category=science&lang=co&country=co">ciencia</a>
+                <a class="nav-bar-header-menu" href="news.php?category=sports&lang=co&country=co">deportes</a>
+                <a class="nav-bar-header-menu" href="news.php?category=technology&lang=co&country=co">tecnología</a>';
         }
 }
 

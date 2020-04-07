@@ -19,7 +19,7 @@
 
 	$totalResults = $characters['totalResults'];
 
-	for($i = 0; $i <= $news; $i++){
+	for($i = 0; $i <= 19; $i++){
 
 		$author[$i] = $characters['articles'][$i]['author'];
 		$title[$i] = $characters['articles'][$i]['title'];

@@ -15,7 +15,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Last world news - LWN</title>
+  <title>LWN</title>
 
   <link href="core/design/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="core/design/nnw.css" rel="stylesheet">
@@ -52,7 +52,7 @@
     </div>
 
     <?php
-      load_news_general($title, $urlToImage, $url, $news);    
+      load_news_general($author, $title, $description, $url, $urlToImage, $publishedAt, $content, $news);    
     ?>
 
     <footer>
