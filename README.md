@@ -1,4 +1,4 @@
-![last-world-news](http://davidespier.com/github/lwn.jpg)
+![last-world-news](http://davidespier.com/github/lwn-php/lwn.jpg)
 
 # last-world-news
 
