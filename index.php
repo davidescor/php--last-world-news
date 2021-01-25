@@ -28,6 +28,7 @@
   <div class="row">
     <div class="nav-bar text-center">
       <div class="col-md-12">
+        <br>
         <div class="nav-bar-header">
           <a class="nav-bar-header-lang" href="?country=co&lang=co">CO</a>
           <a class="nav-bar-header-lang" href="?country=de&lang=de">DE</a>
@@ -61,7 +62,6 @@
           load_lang_categorys($lang);
         ?>
       <hr>
-      <p class="footer-copyright">Copyright 2020 @ LWN </p>
       <a target="_blank" href="http://www.davidespier.com" class="created-by" >Created and design by davidespier.com</a>
     </footer>
   </div>
