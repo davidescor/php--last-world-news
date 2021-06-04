@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 hr{
@@ -15,6 +16,10 @@ footer{
   width: 100%;
   text-align: center;
   background-color: black;
+}
+.nav-bar-header{
+    background-color: red;
+
 }
 .nav-bar-header-lang{
   font-size: 14px;

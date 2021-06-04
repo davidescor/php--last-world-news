@@ -24,11 +24,9 @@
 
 <body>
 
-<div class="container">
   <div class="row">
     <div class="nav-bar text-center">
       <div class="col-md-12">
-        <br>
         <div class="nav-bar-header">
           <a class="nav-bar-header-lang" href="?country=co&lang=co">CO</a>
           <a class="nav-bar-header-lang" href="?country=de&lang=de">DE</a>
@@ -41,7 +39,6 @@
           <a class="nav-bar-header-lang" href="?country=us&lang=us">US</a>
         </div>
       </div>
-
       <div class="col-md-12">
         <img width="150" height="150" src="core/design/img/lwn-transparent.png">
         <hr>
@@ -49,12 +46,16 @@
           load_lang_categorys($lang);
         ?>
       </div>
-
     </div>
-
-    <?php
-      load_news_general($author, $title, $description, $url, $urlToImage, $publishedAt, $content, $news);    
-    ?>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <?php
+        load_news_general($author, $title, $description, $url, $urlToImage, $publishedAt, $content, $news);    
+      ?>
+    </div>
+  </div>
 
     <footer>
       <br>
@@ -64,8 +65,6 @@
       <hr>
       <a target="_blank" href="http://www.davidespier.com" class="created-by" >Created and design by davidespier.com</a>
     </footer>
-  </div>
-</div>
 
   <script src="core/design/vendor/jquery/jquery.slim.min.js"></script>
   <script src="core/design/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

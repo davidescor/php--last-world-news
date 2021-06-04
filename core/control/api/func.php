@@ -10,7 +10,6 @@ include("core/control/api/api.php");
 		          <div class="col-md-6">
 		           <a href="'.$url[$i].'" class="new_title_category">'.$title[$i].'</a>
 		           <br><br>
-		           <p class="new_creator_and_date">'.$author[$i].' - '.$publishedAt[$i].'</p>       
 		           <p class="new_description">'.$description[$i].'</p>
 		          </div>';
 		     echo '<div class="col-md-12"><br><br></div>';
@@ -27,7 +26,6 @@ include("core/control/api/api.php");
 		          <div class="col-md-6">
 		           <a href="'.$url[$i].'" class="new_title_category">'.$title[$i].'</a>
 		           <br><br>
-		           <p class="new_creator_and_date">'.$author[$i].' - '.$publishedAt[$i].'</p>       
 		           <p class="new_description">'.$description[$i].'</p>
 		          </div>';
 		     echo '<div class="col-md-12"><br><br></div>';
